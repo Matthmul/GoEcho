@@ -9,43 +9,43 @@ go run server.go
 
 - Cart
 ```
-	ID 			int
+	ID 		int
 	CartNumber	int
 	ProductID 	int
-	Product     Product
-	Quantity    int
+	Product     	Product
+	Quantity    	int
 ```
 
 - Category
 ```
-	ID 			int
+	ID 		int
 	Name 		string
 ```
 
 - Order
 ```
-	ID 			int
-	OrderNumber int
+	ID 		int
+	OrderNumber 	int
 	CartID 		int
 	Cart     	Cart
 	PaymentID 	int
-	Payment     Payment
+	Payment     	Payment
 ```
 
 - Payment
 ```
-	ID 				int
-	CardNumber 		string
+	ID 		int
+	CardNumber 	string
 	PostalCode     	int
-	Date      		string
-	Status     		string
+	Date      	string
+	Status     	string
 ```
 
 - Product
 ```
-	ID 			int
+	ID 		int
 	Name       	string
 	Price      	int
-	CategoryID  int
+	CategoryID  	int
 	Category   	Category
 ```
